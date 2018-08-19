@@ -4,7 +4,7 @@
 
 import Foundation
 import UIKit
-extension UIView {
+public extension UIView {
     func getParentViewController(_ current: UIView) -> UIViewController? {
         var parentController: UIViewController?
         var responder: UIResponder? = current

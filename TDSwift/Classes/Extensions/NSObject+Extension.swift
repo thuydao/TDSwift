@@ -5,7 +5,7 @@
 import Foundation
 import UIKit
 
-extension NSObject {
+public extension NSObject {
     
     var className: String {
         
@@ -18,7 +18,7 @@ extension NSObject {
     }
 }
 
-extension UINavigationController {
+public extension UINavigationController {
     
     func setHiddenNavigation() {
         

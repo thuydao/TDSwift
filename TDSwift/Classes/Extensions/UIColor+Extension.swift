@@ -5,7 +5,7 @@
 import Foundation
 import UIKit
 
-extension UIColor {
+public extension UIColor {
     
     static func colorFromHex(_ hex: String) -> UIColor {
         var cString = hex.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines).uppercased()

@@ -6,7 +6,7 @@ import Foundation
 import UIKit
 
 
-class Utils: NSObject {
+public class Utils: NSObject {
     
     class func screenSize() -> CGSize {
         return UIScreen.main.bounds.size

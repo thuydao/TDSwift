@@ -3,7 +3,7 @@
 //
 
 import UIKit
-class BaseCustomXibView: UIView {
+public class BaseCustomXibView: UIView {
     var view: UIView!
     fileprivate(set) var nibName: String!
     
@@ -12,7 +12,7 @@ class BaseCustomXibView: UIView {
         initialize()
         xibSetup()
     }
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initialize()
         xibSetup()

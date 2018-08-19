@@ -5,7 +5,7 @@
 import Foundation
 import UIKit
 
-extension UITableView {
+public extension UITableView {
     
     func disableStickyHeader() {
         let dummyViewHeight = CGFloat(40)

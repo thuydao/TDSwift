@@ -5,14 +5,14 @@
 import Foundation
 import UIKit
 
-enum UIUserInterfaceIdiom : Int
+public enum UIUserInterfaceIdiom : Int
 {
     case unspecified
     case phone
     case pad
 }
 
-struct ScreenSize
+public struct ScreenSize
 {
     static let SCREEN_WIDTH         = UIScreen.main.bounds.size.width
     static let SCREEN_HEIGHT        = UIScreen.main.bounds.size.height
@@ -20,7 +20,7 @@ struct ScreenSize
     static let SCREEN_MIN_LENGTH    = min(ScreenSize.SCREEN_WIDTH, ScreenSize.SCREEN_HEIGHT)
 }
 
-struct DeviceType
+public struct DeviceType
 {
     static let IS_IPHONE_4          = UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.SCREEN_MAX_LENGTH < 568.0
     static let IS_IPHONE_5          = UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.SCREEN_MAX_LENGTH == 568.0
@@ -36,7 +36,7 @@ struct DeviceType
     static let isIphone = !(IS_IPAD_PRO || IS_IPAD)
 }
 
-struct DeviceFrame {
+public struct DeviceFrame {
     static let IPHONE_6 = CGSize(width: 375, height: 667)
     static let IPHONE_6P = CGSize(width: 414, height: 736)
     static let IPHONE_7 = IPHONE_6

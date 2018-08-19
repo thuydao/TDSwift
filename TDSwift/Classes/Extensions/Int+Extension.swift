@@ -4,7 +4,7 @@
 
 import Foundation
 
-extension Int {
+public extension Int {
     
     func toViews() -> String {
         if (self/1000000) > 0 {
