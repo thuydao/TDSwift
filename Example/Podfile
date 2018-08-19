@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TDSwift_Example' do
+  pod 'TDSwift', :path => '../'
+
+  target 'TDSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
