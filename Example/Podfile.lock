@@ -1,0 +1,16 @@
+PODS:
+  - TDSwift (0.1.0)
+
+DEPENDENCIES:
+  - TDSwift (from `../`)
+
+EXTERNAL SOURCES:
+  TDSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TDSwift: 3cb031fe41e535bffcbcef57536c1e308c66cbf8
+
+PODFILE CHECKSUM: a3f129cc1b847ccfebe700ca6b45755601dd2e89
+
+COCOAPODS: 1.5.2

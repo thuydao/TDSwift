@@ -40,11 +40,11 @@
 		607FACE51AFB9204008FA782 /* TDSwift_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDSwift_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8BC223B912B8A5846988B1FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8BC223B912B8A5846988B1FD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8DDCB7DBCDC497803A812657 /* Pods-TDSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDSwift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDSwift_Example/Pods-TDSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A6BF5769F3ADDE2FF76939EA /* TDSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TDSwift.podspec; path = ../TDSwift.podspec; sourceTree = "<group>"; };
+		A6BF5769F3ADDE2FF76939EA /* TDSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TDSwift.podspec; path = ../TDSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CAC336C566FE979108AEC3CF /* Pods_TDSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF87E4B641030BACB31C2252 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CF87E4B641030BACB31C2252 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D1B7276BDBEE96BFEB5C6720 /* Pods-TDSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDSwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TDSwift_Tests/Pods-TDSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EB80C37FBB9AD33DB7D5CAAE /* Pods-TDSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDSwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TDSwift_Tests/Pods-TDSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
