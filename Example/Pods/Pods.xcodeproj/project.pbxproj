@@ -14,6 +14,15 @@
 		4DB0CC96714474B9E13B5EBD0F87C41D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		659F3E1A82380EC296114C755537EEA9 /* Pods-TDSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2E332AB6D4FBF5F13DD793A091153C /* Pods-TDSwift_Tests-dummy.m */; };
 		99AAE9B421292C330088E485 /* BaseCustomXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE9B321292C330088E485 /* BaseCustomXibView.swift */; };
+		99AAE9D4212938A40088E485 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE9CA212938A30088E485 /* Utils.swift */; };
+		99AAE9D5212938A40088E485 /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE9CB212938A30088E485 /* DeviceType.swift */; };
+		99AAE9D6212938A40088E485 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE9CD212938A40088E485 /* UIColor+Extension.swift */; };
+		99AAE9D7212938A40088E485 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE9CE212938A40088E485 /* Int+Extension.swift */; };
+		99AAE9D8212938A40088E485 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE9CF212938A40088E485 /* Date+Extension.swift */; };
+		99AAE9D9212938A40088E485 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE9D0212938A40088E485 /* NSObject+Extension.swift */; };
+		99AAE9DA212938A40088E485 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE9D1212938A40088E485 /* UIView+Extension.swift */; };
+		99AAE9DB212938A40088E485 /* UIStoryboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE9D2212938A40088E485 /* UIStoryboard+Extension.swift */; };
+		99AAE9DC212938A40088E485 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AAE9D3212938A40088E485 /* UITableView+Extension.swift */; };
 		C7DEDEE5A57FB63111FD465C2CACBE73 /* Pods-TDSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D342339AE9C0494FEC5571D8B53BC6 /* Pods-TDSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0898A2DC4AC303CF8206833D731E2F9 /* TDSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E56B743BBAC5EA29F63BBC9CCA0B61C /* TDSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4B1C160B8300FF253493F124A5E7C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -58,6 +67,15 @@
 		952101BBB62AF085AAFC19B633241350 /* Pods-TDSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		995A3B95EA420CC95C3B90C762B87E12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		99AAE9B321292C330088E485 /* BaseCustomXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseCustomXibView.swift; path = TDSwift/Classes/BaseCustomXibView.swift; sourceTree = "<group>"; };
+		99AAE9CA212938A30088E485 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = TDSwift/Classes/Utils.swift; sourceTree = "<group>"; };
+		99AAE9CB212938A30088E485 /* DeviceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceType.swift; path = TDSwift/Classes/DeviceType.swift; sourceTree = "<group>"; };
+		99AAE9CD212938A40088E485 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		99AAE9CE212938A40088E485 /* Int+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		99AAE9CF212938A40088E485 /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		99AAE9D0212938A40088E485 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		99AAE9D1212938A40088E485 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		99AAE9D2212938A40088E485 /* UIStoryboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extension.swift"; sourceTree = "<group>"; };
+		99AAE9D3212938A40088E485 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		99D342339AE9C0494FEC5571D8B53BC6 /* Pods-TDSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9B6E808E08B7DEE2A753E5876FA41A34 /* Pods-TDSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A832D313FA55ACCCC9C67195F8C77D00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -157,6 +175,21 @@
 			);
 			sourceTree = "<group>";
 		};
+		99AAE9CC212938A40088E485 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				99AAE9CD212938A40088E485 /* UIColor+Extension.swift */,
+				99AAE9CE212938A40088E485 /* Int+Extension.swift */,
+				99AAE9CF212938A40088E485 /* Date+Extension.swift */,
+				99AAE9D0212938A40088E485 /* NSObject+Extension.swift */,
+				99AAE9D1212938A40088E485 /* UIView+Extension.swift */,
+				99AAE9D2212938A40088E485 /* UIStoryboard+Extension.swift */,
+				99AAE9D3212938A40088E485 /* UITableView+Extension.swift */,
+			);
+			name = Extensions;
+			path = TDSwift/Classes/Extensions;
+			sourceTree = "<group>";
+		};
 		9BD7345F6784DFA9F14788C0DF86500C /* Pods-TDSwift_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +252,9 @@
 		F1F79D3F49B8964F0E57B3FD55AFE828 /* TDSwift */ = {
 			isa = PBXGroup;
 			children = (
+				99AAE9CB212938A30088E485 /* DeviceType.swift */,
+				99AAE9CC212938A40088E485 /* Extensions */,
+				99AAE9CA212938A30088E485 /* Utils.swift */,
 				99AAE9B321292C330088E485 /* BaseCustomXibView.swift */,
 				AC3300AA2755B76B01A0C0E5445AE8FC /* Pod */,
 				A05E0E33B737A2DF2989FD658F5BEAA1 /* Support Files */,
@@ -348,8 +384,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99AAE9DC212938A40088E485 /* UITableView+Extension.swift in Sources */,
 				99AAE9B421292C330088E485 /* BaseCustomXibView.swift in Sources */,
+				99AAE9D5212938A40088E485 /* DeviceType.swift in Sources */,
 				0D1AD75D2646F257D991D74E0992F284 /* Pods-TDSwift_Example-dummy.m in Sources */,
+				99AAE9DA212938A40088E485 /* UIView+Extension.swift in Sources */,
+				99AAE9DB212938A40088E485 /* UIStoryboard+Extension.swift in Sources */,
+				99AAE9D9212938A40088E485 /* NSObject+Extension.swift in Sources */,
+				99AAE9D7212938A40088E485 /* Int+Extension.swift in Sources */,
+				99AAE9D8212938A40088E485 /* Date+Extension.swift in Sources */,
+				99AAE9D4212938A40088E485 /* Utils.swift in Sources */,
+				99AAE9D6212938A40088E485 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

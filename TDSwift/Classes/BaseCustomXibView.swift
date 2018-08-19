@@ -1,9 +1,5 @@
 //
 //  BaseCustomXibView.swift
-//  QHIOS
-//
-//  Created by Điệp Nguyễn on 4/16/18.
-//  Copyright © 2018 QH. All rights reserved.
 //
 
 import UIKit
