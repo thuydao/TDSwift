@@ -3,7 +3,7 @@
 //
 
 import UIKit
-public class BaseCustomXibView: UIView {
+open class BaseCustomXibView: UIView {
     var view: UIView!
     fileprivate(set) var nibName: String!
     
