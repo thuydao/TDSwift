@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Swift common, utils. Install library to your project, never have to write thit generic code again.
+Swift common, utils. Install library to your project, never have to write this generic code again.
                        DESC
 
   s.homepage         = 'https://github.com/thuydao/TDSwift'
